@@ -5,9 +5,9 @@
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.0",
     "@senswap/sen-js": "^1.4.0",
-    "@sentre/antd-ionicon": "^1.0.27",
+    "@sentre/antd-ionicon": "^1.0.31",
     "@sentre/react-lazyload": "^3.2.2",
-    "@sentre/senhub": "^3.0.14",
+    "@sentre/senhub": "^3.0.28",
     "antd": "^4.21.1",
     "bn.js": "^5.2.0",
     "react": "^17.0.2",
@@ -26,8 +26,7 @@
     "predeploy": "yarn build:production",
     "deploy": "gh-pages -d build",
     "preserve": "yarn build:staging",
-    "serve": "serve -s build -l 3000",
-    "manifest": "NODE_ENV=production node ./manifest-builder.js"
+    "serve": "serve -s build -l 3000"
   },
   "eslintConfig": {
     "extends": [
@@ -48,8 +47,8 @@
     "@types/react-dom": "17.0.11"
   },
   "devDependencies": {
-    "@craco/craco": "^6.4.3",
-    "@sentre/craco-plugins": "^1.0.27",
+    "@craco/craco": "^7.0.0-alpha.5",
+    "@sentre/craco-plugins": "^1.0.31",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.2.1",
